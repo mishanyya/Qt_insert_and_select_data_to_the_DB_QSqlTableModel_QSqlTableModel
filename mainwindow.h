@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QSqlTableModel>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -22,7 +21,7 @@ private:
 private slots:
 void createTable();// это созданный нами слот для вывода БД при запуске
 void workingdbsave();// это созданный нами слот для сохранения изменений в БД
-void workingdbsavecansel();// это созданный нами слот для отмены сохранения изменений в БД
+void inserttodb();// это созданный нами слот для вставки данных в БД
 
 };
 #endif // MAINWINDOW_H
