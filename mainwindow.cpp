@@ -92,6 +92,4 @@ MainWindow::MainWindow(QWidget *parent)
                     model1->setQuery("SELECT * FROM basetable");//в модель помещается результат SQL запроса к существующим в БД, таблице и полям
                     ui->tableView->setModel(model1);//выводит в виде таблицы все элементы в окне приложения, не работает в функции main()
 */
-
-
         }
